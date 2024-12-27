@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="./img/Untitled-1.png">
+  <title>Guess The Number by Kareem Hegazy</title>
+</head>
+<body id="body">
+  
+  <div class="easy-page" id="e">
+    <div class="top">
+      <div id="skip"><a id="skip">skip</a></div>
+
+      <div id="tip"><h3>( between 1 to 20 )</h3></div>
+      <div id="title"><h1>Guess The Number!</h1></div>
+    </div>
+    <div class="middle">
+      <div class="line"></div>
+      <div id="r-num">
+        <h1 class="r-num" id="r-value">?</h1>
+      </div>
+    </div>
+    <div class="bottom">
+      <div class="left">
+        <div class="space-t"></div>
+         <div id="U-number">
+          
+          <input type="number" min="1"
+          max="20" step="1" id="u-num-in">
+        </div>
+        <div class="space2"></div>
+
+        <div class="check">
+          <input type="submit" id="submit" value="check!" onclick="submit_e_p()">
+          <input type="submit" id="next" value="next" onclick="next()">
+        </div> 
+       <br>
+      </div>
+      <div id="right">
+        <h3 id="guess_near" >Guess now</h3>
+        <div class="score"><h1>Score:</h1><h1 id="score">20</h1></div>
+        <br>
+        <div class="finish">
+          <a id="finish">finish and back</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="start-page" id="s">
+    <div class="top">
+      <div id="title"><h1>Guess The Number!</h1></div>
+    </div>
+    <div class="middle">
+      <div class="line"></div>
+      <div id="r-num">
+        <h1 class="r-num" id="r-value">?</h1>
+      </div>
+    </div>
+    <div class="bottom">
+      <div class="choose">
+        <h1>choose your level:</h1> <br>
+        
+        <div class="c-one">
+          <div id="easy" onclick="easy()"><h2>easy</h2></div>
+        <div id="medium" onclick="medium()"><h2>medium</h2></div>
+        <div id="hard" onclick="hard()"><h2>hard</h2></div></div>
+      </div>
+      <br>
+      <div class="line"></div>
+      <br>
+      <p>if you don't choose it will be easy</p>
+      <br><br>
+      <div class="start" onclick="start()">
+        <a id="start-btn">start</a>
+      </div>
+      <br>
+      <div class="download">
+        <a id="down-btn"> <h1>download for mobile</h1></a>
+       
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html> 

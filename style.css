@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+*{
+  font-family: "Pixelify Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+  
+}
+body{
+  background-color:#222831 ;
+}
+
+/* middle */
+#e .middle .line{
+  height: 8px;
+  border-radius: 2px;
+  cursor:default;
+  width: 100%;
+  background-color: rgb(226, 226, 226);
+  margin-top: 18%;
+  position: absolute;
+}
+
+#e .middle #r-num{
+  height: 120px;
+  width: 120px;
+  background-color: rgb(226, 226, 226);
+  text-align: center;
+  margin-top: 14%;
+  margin-left: 44.25%;
+  cursor:default;
+
+  position: absolute;
+  border-radius: 5px;
+  color:#222831 ;
+  font-size: 50px;
+}
+/* top */
+#e .top {
+  position: absolute;
+  width: 100%;
+  color: rgb(226, 226, 226);
+  display: flex;
+}
+
+#e .top #skip{
+  font-size: 27px;
+  margin-top: 7px;
+  margin-left: 10px;
+  padding-right: 5px;
+  text-align:center ;
+  background-color: rgb(226, 226, 226);
+  color:#222831;
+  width: 100px;
+  height: 34px;
+  cursor:pointer;
+  z-index: 4;
+  border-radius: 5px;
+
+}
+#e .top #tip{
+  color: rgb(226, 226, 226);
+  font-size: 20px;
+  right: 10px;
+  position: absolute;
+  margin-top: 7px;
+  cursor:default;
+
+
+}
+#e .top #title{
+  margin-top: 8%;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  font-size: 30px;
+  cursor:default;
+
+}
+/* bottom */
+/* left */
+#e .left{
+  position: absolute;
+}
+#e .bottom {
+  position: absolute;
+}
+#e .bottom #U-number{
+  margin-left: 180%;
+  position: absolute;
+}
+#e .bottom .space-t{
+  height: 350px;
+}
+#e .bottom #U-number #u-num-in{
+  width: 170px;
+  border-radius: 5px;
+  height: 80px;
+  color: rgb(226, 226, 226);
+  border-style:dashed;
+  background: transparent;
+  text-align: center;
+  font-size: 40px;
+  position: absolute;
+  
+}
+#e .bottom .space2{
+  height: 100px;
+}
+#e .bottom .check{
+  margin-left:199%;
+
+}
+#e .bottom .check #submit{
+  width: 120px;
+  border-radius: 5px;
+  height: 60px;
+  color: #222831;
+  background-color: rgb(196, 196, 196);
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer;
+  border-radius: 3px;
+  border: none;
+}
+#e .bottom .check #next{
+  width: 120px;
+  border-radius: 5px;
+  height: 60px;
+  color: #222831;
+  background-color: rgb(196, 196, 196);
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer;
+  border-radius: 3px;
+  border: none;
+  display: none;
+}
+/* right */
+#e .bottom #right{
+margin-left: 950px;
+font-size: 20px;
+color: rgb(224, 224, 224);
+margin-top: 30%;
+}
+#e .bottom #right #finish{
+  width: 120px;
+  border-radius: 5px;
+  height: 60px;
+  color: #222831;
+  background-color: rgb(196, 196, 196);
+  text-align: center;
+  font-size: 30px;
+  padding-left: 20px;
+  cursor: pointer;
+  padding-right: 20px;
+  border-radius: 3px;
+  border: none;
+}
+/* easy page */
+.easy-page{
+  display: none;
+}
+/* start-page */
+.start-page{
+  display: block;
+}
+/* middle */
+#s .middle .line{
+ margin-left: 24.5%;
+  height: 8px;
+  border-radius: 2px;
+  cursor:default;
+  width:50% ;
+  background-color: rgb(226, 226, 226);
+  margin-top: 18%;
+  position: absolute;
+}
+/* middle */
+#s .middle #r-num{
+  height: 120px;
+  width: 120px;
+  background-color: rgb(226, 226, 226);
+  text-align: center;
+  margin-top: 14%;
+  margin-left: 44.25%;
+  cursor:default;
+
+  position: absolute;
+  border-radius: 5px;
+  color:#222831 ;
+  font-size: 50px;
+}
+/* top */
+#s .top {
+  position: absolute;
+  width: 100%;
+  color: rgb(226, 226, 226);
+  display: flex;
+}
+#s .top #title{
+  margin-top: 8%;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  font-size: 30px;
+  cursor:default;
+
+}
+/* bottom */
+#s .bottom{
+  text-align: center;
+  color:rgb(226, 226, 226);
+  padding-top: 25%;
+  margin-right: 3%;
+}
+#s .bottom .choose .c-one{
+  display: flex;
+}
+#s .bottom .choose .c-one #easy{
+  margin-left: 38%;
+  margin-right: 30px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: 0.5s;
+  text-decoration-thickness:15px ;
+}
+#s .bottom .choose .c-one #easy:hover{
+  text-decoration: line-through;
+  transition: 0.5s;
+
+}#s .bottom .choose .c-one #medium{
+  margin-right: 30px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: 0.5s;
+
+}
+#s .bottom .choose .c-one #medium:hover{
+  text-decoration: line-through;
+  transition: 0.5s;
+
+}
+#s .bottom .choose .c-one #hard{
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: 0.5s;
+
+}
+#s .bottom .choose .c-one #hard:hover{
+  text-decoration: line-through;
+  transition: 0.5s;
+
+}
+#s .bottom .line{
+  width: 40%;
+  height: 2px;
+  margin-left: 30%;
+  background-color: rgb(226, 226, 226);
+}
+#s .bottom #start-btn{
+  font-size: 25px;
+  padding: 10px;
+  padding-left:50px ;
+  color: #222831;
+  background-color: rgb(226, 226, 226);
+  padding-right:50px ;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+#s .bottom #down-btn{
+  cursor: pointer;
+}
